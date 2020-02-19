@@ -31,6 +31,11 @@ LIBS += $(CROSS_LIBS)
 
 SRCDIRS		= ../ \
 			../src \
+			../src/RendezvueSensor \
+			../src/RendezvueCamera \
+			../src/RendezvueLedBar \
+			../src/RendezvueLight \
+			../src/RendezvueVision \
 			$(CROSS_SRCDIRS)
 			
 			
