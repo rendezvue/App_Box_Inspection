@@ -1,0 +1,10 @@
+VersionInfo.h
+CameraBase
+depend
+.depend
+*.a
+*.o
+ENSEMBLE
+RDV_App_Box_Inspection
+data/
+ENSEMBLE_DB/
