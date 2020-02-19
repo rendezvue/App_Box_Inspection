@@ -2,6 +2,9 @@
 
 #include "VersionInfo.h"
 
+//Ensemble API
+#include "EnsembleAPI.h"
+
 //opencv
 #include "opencv2/opencv.hpp"
 
@@ -21,9 +24,13 @@ int main(void)
 	CRendezvueVision cls_vision ;
 	
 	printf("Start Box Inspection\n") ;
+
+	//Connect
 	
 	while(1)
 	{
+		//Step 0 : Check Connect
+		
 		//Step 1 : Wait Trigger from Input Sensor
 		cls_sensor_input.GetTrigger() ;
 
@@ -53,6 +60,8 @@ int main(void)
 			cls_led_bar.Set(false, true) ;
 		}
 	};
-		
+
+	//Disconnect
+	
 	return 0 ;
 }

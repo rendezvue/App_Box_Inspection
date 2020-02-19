@@ -3,6 +3,13 @@
 INCDIRS = -I./ \
 		-I../ \
 		-I../include \
+		-I../module/EnsembleAPI \
+		-I../module/EnsembleAPI/src \
+		-I../module/EnsembleCommand \
+		-I../module/EnsembleCommon \
+		-I../module/ImgEncDec \
+		-I../module/PacketEthComm \
+		-I../module/PacketEthComm/Client \
 		$(CROSS_INCDIRS)
 		
 #BOOST_INC_PATH='../'
@@ -36,6 +43,11 @@ SRCDIRS		= ../ \
 			../src/RendezvueLedBar \
 			../src/RendezvueLight \
 			../src/RendezvueVision \
+			../module/EnsembleAPI \
+			../module/EnsembleAPI/src \
+			../module/ImgEncDec \
+			../module/PacketEthComm \
+			../module/PacketEthComm/Client \
 			$(CROSS_SRCDIRS)
 			
 			
